@@ -1,0 +1,34 @@
+PODS:
+  - ARVideoKit (1.5.51)
+  - AudioKit (4.11.2):
+    - AudioKit/Core (= 4.11.2)
+    - AudioKit/UI (= 4.11.2)
+  - AudioKit/Core (4.11.2)
+  - AudioKit/UI (4.11.2):
+    - AudioKit/Core
+  - SPPermissions/Camera (5.5.2):
+    - SPPermissions/Core
+  - SPPermissions/Core (5.5.2)
+  - SPPermissions/PhotoLibrary (5.5.2):
+    - SPPermissions/Core
+
+DEPENDENCIES:
+  - ARVideoKit (~> 1.5.51)
+  - AudioKit
+  - SPPermissions/Camera
+  - SPPermissions/PhotoLibrary
+
+SPEC REPOS:
+  trunk:
+    - ARVideoKit
+    - AudioKit
+    - SPPermissions
+
+SPEC CHECKSUMS:
+  ARVideoKit: cd70e1e49e042ed4a88fb59964c17520e34f7f5b
+  AudioKit: 57cc61d708f085763a031e5c3f87adae21dc4b59
+  SPPermissions: b5839725c116d650742b8c12633e0d5ccf9096e9
+
+PODFILE CHECKSUM: 68ce07279c2647baa0d5703cb4546444dffcd711
+
+COCOAPODS: 1.10.1
